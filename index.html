@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Para configurar las extensiones en VisualCode https://www.youtube.com/watch?v=zELJwqVsHh4&ab_channel=AlexCGDesign -->
+    <!--shift + alt + b - para buscar con que navegador abrir nuestro html-->
+    <!--ctrl + shift + p - para buscar "beatiful file"-->
+    <!-- https://fonts.google.com/specimen/Poppins?query=po&sort=popularity&preview.size=15&preview.text_type=custom -->
+    <!-- https://uigradients.com/#SublimeLight -->
+    <!-- Para comentar: seleccionas el bloque de texto - y presionas "ctrl + k" y luego "ctrl + u" -->
+    <!-- Para quitar comentarios: seleccionas el bloque de texto - y presionas "ctrl + k" y luego "ctrl + c" -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="">
+        <!--<div class="form">***podria ir, pero es mala prectica-->
+        <h1>Contactanos</h1><!--Float Labels-->
+        <div class="grupo">
+            <input type="text" name="nombre" id="" required><span class="barra"></span>
+            <label>Nombre</label>
+        </div>
+        <div class="grupo">
+            <input type="email" name="email" id="" required><span class="barra"></span>
+            <label>Email</label>
+        </div>
+        <div class="grupo">
+            <input type="text" name="asunto" id="" required><span class="barra"></span>
+            <label>Asunto</label>
+        </div>
+        <div class="grupo">
+            <textarea name="" id="" rows="3" required></textarea><span class="barra"></span>
+            <label>Mensaje</label>
+        </div>
+        <button type="submit">Enviar</button>
+        <!-- </div>***podria ir, pero es mala practica-->
+    </form>
+</body>
+</html>
